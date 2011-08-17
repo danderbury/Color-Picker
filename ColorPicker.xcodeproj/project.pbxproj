@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A10C8513FBA89500AA9F90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A10C8413FBA89500AA9F90 /* UIKit.framework */; };
+		00A10C8713FBA89500AA9F90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A10C8613FBA89500AA9F90 /* Foundation.framework */; };
+		00A10C8913FBA89500AA9F90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A10C8813FBA89500AA9F90 /* CoreGraphics.framework */; };
+		00A10C8F13FBA89500AA9F90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A10C8D13FBA89500AA9F90 /* InfoPlist.strings */; };
+		00A10C9213FBA89500AA9F90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A10C9113FBA89500AA9F90 /* main.m */; };
+		00A10C9513FBA89500AA9F90 /* ColorPickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A10C9413FBA89500AA9F90 /* ColorPickerAppDelegate.m */; };
+		00A10C9813FBA89500AA9F90 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A10C9613FBA89500AA9F90 /* MainWindow.xib */; };
+		00A10C9B13FBA89500AA9F90 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A10C9A13FBA89500AA9F90 /* ColorPickerViewController.m */; };
+		00A10C9E13FBA89500AA9F90 /* ColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A10C9C13FBA89500AA9F90 /* ColorPickerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00A10C8013FBA89500AA9F90 /* ColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A10C8413FBA89500AA9F90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00A10C8613FBA89500AA9F90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00A10C8813FBA89500AA9F90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00A10C8C13FBA89500AA9F90 /* ColorPicker-Info.plist */ = {isa = PBXFileReference; path = "ColorPicker-Info.plist"; sourceTree = "<group>"; };
+		00A10C8E13FBA89500AA9F90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00A10C9013FBA89500AA9F90 /* ColorPicker-Prefix.pch */ = {isa = PBXFileReference; path = "ColorPicker-Prefix.pch"; sourceTree = "<group>"; };
+		00A10C9113FBA89500AA9F90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00A10C9313FBA89500AA9F90 /* ColorPickerAppDelegate.h */ = {isa = PBXFileReference; path = ColorPickerAppDelegate.h; sourceTree = "<group>"; };
+		00A10C9413FBA89500AA9F90 /* ColorPickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorPickerAppDelegate.m; sourceTree = "<group>"; };
+		00A10C9713FBA89500AA9F90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		00A10C9913FBA89500AA9F90 /* ColorPickerViewController.h */ = {isa = PBXFileReference; path = ColorPickerViewController.h; sourceTree = "<group>"; };
+		00A10C9A13FBA89500AA9F90 /* ColorPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
+		00A10C9D13FBA89500AA9F90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ColorPickerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A10C7D13FBA89500AA9F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A10C8513FBA89500AA9F90 /* UIKit.framework in Frameworks */,
+				00A10C8713FBA89500AA9F90 /* Foundation.framework in Frameworks */,
+				00A10C8913FBA89500AA9F90 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A10C7513FBA89500AA9F90 = {
+			isa = PBXGroup;
+			children = (
+				00A10C8A13FBA89500AA9F90 /* ColorPicker */,
+				00A10C8313FBA89500AA9F90 /* Frameworks */,
+				00A10C8113FBA89500AA9F90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00A10C8113FBA89500AA9F90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A10C8013FBA89500AA9F90 /* ColorPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A10C8313FBA89500AA9F90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00A10C8413FBA89500AA9F90 /* UIKit.framework */,
+				00A10C8613FBA89500AA9F90 /* Foundation.framework */,
+				00A10C8813FBA89500AA9F90 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00A10C8A13FBA89500AA9F90 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				00A10C9313FBA89500AA9F90 /* ColorPickerAppDelegate.h */,
+				00A10C9413FBA89500AA9F90 /* ColorPickerAppDelegate.m */,
+				00A10C9613FBA89500AA9F90 /* MainWindow.xib */,
+				00A10C9913FBA89500AA9F90 /* ColorPickerViewController.h */,
+				00A10C9A13FBA89500AA9F90 /* ColorPickerViewController.m */,
+				00A10C9C13FBA89500AA9F90 /* ColorPickerViewController.xib */,
+				00A10C8B13FBA89500AA9F90 /* Supporting Files */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		00A10C8B13FBA89500AA9F90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00A10C8C13FBA89500AA9F90 /* ColorPicker-Info.plist */,
+				00A10C8D13FBA89500AA9F90 /* InfoPlist.strings */,
+				00A10C9013FBA89500AA9F90 /* ColorPicker-Prefix.pch */,
+				00A10C9113FBA89500AA9F90 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A10C7F13FBA89500AA9F90 /* ColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A10CA113FBA89500AA9F90 /* Build configuration list for PBXNativeTarget "ColorPicker" */;
+			buildPhases = (
+				00A10C7C13FBA89500AA9F90 /* Sources */,
+				00A10C7D13FBA89500AA9F90 /* Frameworks */,
+				00A10C7E13FBA89500AA9F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorPicker;
+			productName = ColorPicker;
+			productReference = 00A10C8013FBA89500AA9F90 /* ColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A10C7713FBA89500AA9F90 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 00A10C7A13FBA89500AA9F90 /* Build configuration list for PBXProject "ColorPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00A10C7513FBA89500AA9F90;
+			productRefGroup = 00A10C8113FBA89500AA9F90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A10C7F13FBA89500AA9F90 /* ColorPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A10C7E13FBA89500AA9F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A10C8F13FBA89500AA9F90 /* InfoPlist.strings in Resources */,
+				00A10C9813FBA89500AA9F90 /* MainWindow.xib in Resources */,
+				00A10C9E13FBA89500AA9F90 /* ColorPickerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A10C7C13FBA89500AA9F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A10C9213FBA89500AA9F90 /* main.m in Sources */,
+				00A10C9513FBA89500AA9F90 /* ColorPickerAppDelegate.m in Sources */,
+				00A10C9B13FBA89500AA9F90 /* ColorPickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00A10C8D13FBA89500AA9F90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A10C8E13FBA89500AA9F90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00A10C9613FBA89500AA9F90 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A10C9713FBA89500AA9F90 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		00A10C9C13FBA89500AA9F90 /* ColorPickerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A10C9D13FBA89500AA9F90 /* en */,
+			);
+			name = ColorPickerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A10C9F13FBA89500AA9F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00A10CA013FBA89500AA9F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		00A10CA213FBA89500AA9F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorPicker/ColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "ColorPicker/ColorPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00A10CA313FBA89500AA9F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorPicker/ColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "ColorPicker/ColorPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A10C7A13FBA89500AA9F90 /* Build configuration list for PBXProject "ColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A10C9F13FBA89500AA9F90 /* Debug */,
+				00A10CA013FBA89500AA9F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A10CA113FBA89500AA9F90 /* Build configuration list for PBXNativeTarget "ColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A10CA213FBA89500AA9F90 /* Debug */,
+				00A10CA313FBA89500AA9F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A10C7713FBA89500AA9F90 /* Project object */;
+}
