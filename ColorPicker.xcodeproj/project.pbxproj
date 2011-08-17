@@ -23,14 +23,14 @@
 		00A10C8413FBA89500AA9F90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		00A10C8613FBA89500AA9F90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00A10C8813FBA89500AA9F90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		00A10C8C13FBA89500AA9F90 /* ColorPicker-Info.plist */ = {isa = PBXFileReference; path = "ColorPicker-Info.plist"; sourceTree = "<group>"; };
+		00A10C8C13FBA89500AA9F90 /* ColorPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorPicker-Info.plist"; sourceTree = "<group>"; };
 		00A10C8E13FBA89500AA9F90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		00A10C9013FBA89500AA9F90 /* ColorPicker-Prefix.pch */ = {isa = PBXFileReference; path = "ColorPicker-Prefix.pch"; sourceTree = "<group>"; };
+		00A10C9013FBA89500AA9F90 /* ColorPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorPicker-Prefix.pch"; sourceTree = "<group>"; };
 		00A10C9113FBA89500AA9F90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		00A10C9313FBA89500AA9F90 /* ColorPickerAppDelegate.h */ = {isa = PBXFileReference; path = ColorPickerAppDelegate.h; sourceTree = "<group>"; };
+		00A10C9313FBA89500AA9F90 /* ColorPickerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorPickerAppDelegate.h; sourceTree = "<group>"; };
 		00A10C9413FBA89500AA9F90 /* ColorPickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorPickerAppDelegate.m; sourceTree = "<group>"; };
 		00A10C9713FBA89500AA9F90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		00A10C9913FBA89500AA9F90 /* ColorPickerViewController.h */ = {isa = PBXFileReference; path = ColorPickerViewController.h; sourceTree = "<group>"; };
+		00A10C9913FBA89500AA9F90 /* ColorPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
 		00A10C9A13FBA89500AA9F90 /* ColorPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
 		00A10C9D13FBA89500AA9F90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ColorPickerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +126,9 @@
 /* Begin PBXProject section */
 		00A10C7713FBA89500AA9F90 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 00A10C7A13FBA89500AA9F90 /* Build configuration list for PBXProject "ColorPicker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -276,6 +279,7 @@
 				00A10CA313FBA89500AA9F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
